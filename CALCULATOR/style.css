@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top:30px;
+    background-color: beige;
+}
+.calculator{
+    border-style: dashed;
+    padding: 20px;
+    border-radius:25px;
+    box-shadow:  0px 3px 45px gray;
+   background: black;
+   width: 400px;
+   height: 530px;
+   margin-left: 70px;
+}  
+input{
+    width: 270px;
+   padding: 20px;
+   border: none;
+   margin: 10px;
+   background:silver;
+   box-shadow: 0px 3px 15px gray;
+   border-radius:10px;
+   font-size: 40px;
+   text-align: right;
+   cursor: pointer;
+   color:white;
+   outline: none;
+}
+input::placeholder{
+    color: white;
+}
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    color: black;
+    font-size: 20px;
+    box-shadow: -2px -2px 10px silver;
+    cursor: pointer;
+} 
+button:hover{
+    color: aqua;
+    background:pink;
+    box-shadow: none;
+}
+.equalBtn{
+    background-color: chocolate;
+    box-shadow:  -2px -2px 15px chocolate;
+}
+.equalBtn:hover{
+    color: brown;
+    background-color: chocolate;
+    box-shadow: none;
+}
+.operator{
+    color: green;
+    background-color: chartreuse;
+    box-shadow:  -2px -2px 15px chartreuse;
+}
+.operator:hover{
+    color: green;
+    background: chartreuse;
+    box-shadow: none;
+}
